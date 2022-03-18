@@ -60,8 +60,21 @@ body {
 /* Layout */
 .menu {
   height: 10vh;
-  background: rgb(71, 24, 158);
+  background: rgb(41, 150, 223);
   width: 100%;
+  display: flex;
+}
+.menu nav {
+  margin-left: auto;
+}
+.menu .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+  height: 100%;
+
 }
 
 .grid {
@@ -136,4 +149,14 @@ grid-row: 5/6;
   background-image: url("https://res.cloudinary.com/pmichventura/image/upload/v1645148357/imagenes/08_wro2oj.jpg");
 grid-column:  3/5;
 grid-row: 5/6;
+}
+/* Inicio */
+.nav ul{
+text-align: center;
+flex-wrap: wrap;
+}
+
+.logo{
+  padding-left: 20px;
+  padding-top: 10px;;
 }
